@@ -34,11 +34,11 @@ export const SideBar = () => {
             <ul>
                 <li className="bottom-menu-li"> 
                     <img src={people}/> 
-                    <Link href="/expenses" className="liSidebarA">Settings</Link>
+                    <Link href="/settings" className="liSidebarA">Settings</Link>
                 </li>
                 <li className="bottom-menu-li">
                     <img src={people}/> 
-                    <Link href="/expenses" className="liSidebarA">Log out</Link>
+                    <Link href="/Log-out" className="liSidebarA">Log out</Link>
                 </li>
             </ul>
         </div>
