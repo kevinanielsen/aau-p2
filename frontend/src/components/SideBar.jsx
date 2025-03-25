@@ -8,9 +8,9 @@ export const SideBar = () => {
 
     return (
     <div>
-        <div className="ulSideBar">
+        <div className="SideBar">
+        <img src={LOGO} className="SideBarImg"/>
             <ul> 
-                <img src={LOGO} className="ulSideBarImg"/>
                 <li className="liSideBar"> 
                     <img src={people}/> 
                     <a className="liSidebarA">Overview</a>
