@@ -50,8 +50,10 @@
   position: fixed; 
   top: 0; 
   left: 0;
+  overflow:auto;
   height: 100vh; 
   display: flex;
+  align-items: center;
   flex-direction: column; /* Stack items vertically */
   box-sizing: border-box;
 }
@@ -60,17 +62,20 @@
   display: block;
   margin: 16%;
   width: 80%;
-
 }
 
 .liSideBar {
-  display: block;
-  padding: 8px 16px;
+  display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  gap:8px;
+  width: fit-content;
 }
 
 .liSideBar:hover {
   background-color: #555;
+  
   color: white;
 }
 
@@ -78,4 +83,17 @@
   color: #C2C0FF;
   font-size: 16px;
   padding: 8px 16px;
+}
+
+.bottom-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 17;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

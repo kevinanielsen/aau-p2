@@ -7,6 +7,7 @@ export const SideBar = () => {
     const [collapsed, setCollapsed] = useState(false); 
 
     return (
+    <div>
         <ul className="ulSideBar"> 
             <img src={LOGO} className="ulSideBarImg"/>
             <li className="liSideBar"> 
@@ -26,5 +27,18 @@ export const SideBar = () => {
                 <a className="liSidebarA">Expenses</a>
             </li>
         </ul>
+        <div> 
+            <ul className="bottom-menu">
+                <li> 
+                    <img src={people}/> 
+                    <a>Settings</a>
+                </li>
+                <li>
+                    <img src={people}/> 
+                    <a>Log out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     );
 }
