@@ -29,7 +29,6 @@
   padding: 8px 16px;
   flex-direction: column; /* Stack items vertically */
   box-sizing: border-box;
-  padding: 8px 16px;
   align-items: left;
 }
 
