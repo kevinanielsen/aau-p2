@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "wouter";
 import '../App.css';
 import LOGO from '../assets/LOGO.svg';
 import people from '../assets/people.svg';
@@ -13,19 +14,19 @@ export const SideBar = () => {
             <ul> 
                 <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a className="liSidebarA">Overview</a>
+                    <Link href="/" className="liSidebarA">Overview</Link>
                 </li>
                 <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a className="liSidebarA">Advice</a>
+                    <Link href="/advice" className="liSidebarA">Advice</Link>
                 </li>
                 <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a className="liSidebarA">Activities</a>
+                    <Link href="/activities" className="liSidebarA">Activities</Link>
                 </li>
                 <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a className="liSidebarA">Expenses</a>
+                    <Link href="/expenses" className="liSidebarA">Expenses</Link>
                 </li>
             </ul>
         </div>
@@ -33,11 +34,11 @@ export const SideBar = () => {
             <ul>
                 <li className="bottom-menu-li"> 
                     <img src={people}/> 
-                    <a className="liSidebarA">Settings</a>
+                    <Link href="/expenses" className="liSidebarA">Settings</Link>
                 </li>
                 <li className="bottom-menu-li">
                     <img src={people}/> 
-                    <a className="liSidebarA">Log out</a>
+                    <Link href="/expenses" className="liSidebarA">Log out</Link>
                 </li>
             </ul>
         </div>
