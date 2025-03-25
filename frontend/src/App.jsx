@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Test } from './components/test'
+import { SideBar } from './components/SideBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
     <>
       <h1>P2</h1>
       <Test></Test>
+      <SideBar> </SideBar>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

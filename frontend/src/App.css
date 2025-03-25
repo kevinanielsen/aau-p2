@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+.ulSideBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 17vw; 
+  background: linear-gradient(to top, #0D313D, #4CA6C4); /* Gradient from top to bottom */
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  box-sizing: border-box;
+}
+
+.ulSideBarImg {
+  display: block;
+  margin: 16%;
+  width: 80%;
+
+}
+
+.liSideBar {
+  display: block;
+  padding: 8px 16px;
+  align-items: center;
+}
+
+.liSideBar:hover {
+  background-color: #555;
+  color: white;
+}
+
+.liSidebarA {
+  color: #C2C0FF;
+  font-size: 16px;
+  padding: 8px 16px;
+}
