@@ -8,34 +8,36 @@ export const SideBar = () => {
 
     return (
     <div>
-        <ul className="ulSideBar"> 
-            <img src={LOGO} className="ulSideBarImg"/>
-            <li className="liSideBar"> 
-                <img src={people}/> 
-                <a className="liSidebarA">Overview</a>
-            </li>
-            <li className="liSideBar"> 
-                <img src={people}/> 
-                <a className="liSidebarA">Advice</a>
-            </li>
-            <li className="liSideBar"> 
-                <img src={people}/> 
-                <a className="liSidebarA">Activities</a>
-            </li>
-            <li className="liSideBar"> 
-                <img src={people}/> 
-                <a className="liSidebarA">Expenses</a>
-            </li>
-        </ul>
-        <div> 
-            <ul className="bottom-menu">
-                <li> 
+        <div className="ulSideBar">
+            <ul> 
+                <img src={LOGO} className="ulSideBarImg"/>
+                <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a>Settings</a>
+                    <a className="liSidebarA">Overview</a>
                 </li>
-                <li>
+                <li className="liSideBar"> 
                     <img src={people}/> 
-                    <a>Log out</a>
+                    <a className="liSidebarA">Advice</a>
+                </li>
+                <li className="liSideBar"> 
+                    <img src={people}/> 
+                    <a className="liSidebarA">Activities</a>
+                </li>
+                <li className="liSideBar"> 
+                    <img src={people}/> 
+                    <a className="liSidebarA">Expenses</a>
+                </li>
+            </ul>
+        </div>
+        <div className="bottom-menu"> 
+            <ul>
+                <li className="bottom-menu-li"> 
+                    <img src={people}/> 
+                    <a className="liSidebarA">Settings</a>
+                </li>
+                <li className="bottom-menu-li">
+                    <img src={people}/> 
+                    <a className="liSidebarA">Log out</a>
                 </li>
             </ul>
         </div>

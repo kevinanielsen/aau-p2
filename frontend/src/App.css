@@ -53,30 +53,26 @@
   overflow:auto;
   height: 100vh; 
   display: flex;
-  align-items: center;
+  padding: 8px 16px;
   flex-direction: column; /* Stack items vertically */
   box-sizing: border-box;
+  padding: 8px 16px;
+  align-items: center;
 }
 
 .ulSideBarImg {
   display: block;
   margin: 16%;
   width: 80%;
+  object-fit: contain;
 }
 
 .liSideBar {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 8px 16px;
   gap:8px;
   width: fit-content;
-}
-
-.liSideBar:hover {
-  background-color: #555;
-  
-  color: white;
 }
 
 .liSidebarA {
@@ -91,9 +87,16 @@
   padding: 0;
   width: 17;
   position: fixed;
-  top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
+}
+
+.bottom-menu-li{
+  display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+  gap:8px;
+  width: fit-content;
 }
