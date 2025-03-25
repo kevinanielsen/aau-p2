@@ -1,29 +1,22 @@
-import { useState } from 'react'
-import './App.css'
-import { Test } from './components/test'
-import { SideBar } from './components/SideBar'
+import { Route, Switch } from "wouter";
+import "./App.css";
+import { SignUp } from "./pages/SignUp";
+import { Home } from "./pages/Home";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <h1>P2</h1>
-      <Test></Test>
-      <SideBar> </SideBar>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/sign-up">
+          <SignUp />
+        </Route>
+        <Route>Not Found</Route>
+      </Switch>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
