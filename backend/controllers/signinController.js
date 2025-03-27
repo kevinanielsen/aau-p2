@@ -1,6 +1,5 @@
 const signup_post = (req, res) => {
-    res.send("About this wiki");
-
+    res.send("Sign up page");
 }
 
 export { signup_post }
