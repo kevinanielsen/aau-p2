@@ -1,24 +1,11 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 .SideBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 17vw; 
   background: linear-gradient(to top, #0D313D, #4CA6C4); /* Gradient from top to bottom */
   position: fixed; 
   top: 0; 
@@ -29,12 +16,12 @@
   flex-direction: column; /* Stack items vertically */
   box-sizing: border-box;
   align-items: left;
+  
 }
 
 .SideBarImg {
   display: block;
   margin: 16%;
-  width: 80%;
   object-fit: contain;
 }
 
@@ -48,7 +35,7 @@
 
 .liSidebarA {
   color: #C2C0FF;
-  font-size: 16px;
+  font-size: 14pt;
   padding: 8px 16px;
   text-decoration: none;
 }
