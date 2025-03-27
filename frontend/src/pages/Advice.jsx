@@ -1,5 +1,5 @@
 import { SideBar } from '../components/SideBar'; 
-export const Home = () => {
+export const Advice = () => {
   return (
     <SideBar>
       
