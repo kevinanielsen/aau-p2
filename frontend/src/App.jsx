@@ -7,6 +7,14 @@ import { Advice } from "./pages/Advice";
 import { Expenses } from "./pages/Expenses";
 import { LogOut } from "./pages/LogOut";
 import { Settings } from "./pages/Settings";
+
+export const user = {
+  userName: "Kevin",
+  age: "18",
+  email: "kevin@gmail.com",
+  phone: "+4512345678",
+}
+
 const App = () => {
   return (
     <>
