@@ -1,8 +1,9 @@
-import { SideBar } from '../components/SideBar'; 
+import { ExpenseButton } from '../components/Button';
+
 export const Expenses = () => {
   return (
-    <SideBar>
-      
-    </SideBar>
+    <div>
+      <ExpenseButton />
+    </div>
   )
 }
