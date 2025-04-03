@@ -1,0 +1,28 @@
+.header{
+    display: flex; 
+    flex-direction: column;
+    margin-left:20px;
+}
+.header > * {
+    margin: 5px; 
+    margin-top: 10px;
+}
+.header > *:not(:last-child) {
+    border-bottom: 2px solid #000000; /* Add a flat line */
+}
+
+.table-container {
+    display: flex;
+    align-items: center; /* Centers the table vertically */
+    height: 80vh; /* Make the container take the full height of the viewport */
+    margin:10px;
+    overflow: hidden;
+}
+
+.inputForms{
+    display: flex;
+    flex-direction: row; /* Stack inputs vertically */
+    gap: 5px; /* Add spacing between inputs */
+    justify-content: right;
+
+}
