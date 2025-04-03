@@ -1,7 +1,7 @@
 import { SideBar } from '../components/SideBar'; 
 import '../styles/Expenses.css'; 
 
-export const Activities = () => {
+export const Expenses = () => {
   return (
     <div>
       <SideBar />
