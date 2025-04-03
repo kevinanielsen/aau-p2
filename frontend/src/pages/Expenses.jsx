@@ -1,17 +1,11 @@
 import { SideBar } from '../components/SideBar'; 
-import '../styles/Button.css'; 
+import {Button} from '../components/Button';
 
 export const Expenses = () => {
-  return (
-    <div>
-      <SideBar />
-
-      <h1>Expenses</h1>
-
-      {/* Add button */}
-      <div className="button">
-        <button className="button">Add Expense</button>
+    return (
+      <div>
+        <h1>Expenses</h1>
+        <Button label= "Add Expense" />
       </div>
-    </div>
-  );
-};
+    )
+  }
