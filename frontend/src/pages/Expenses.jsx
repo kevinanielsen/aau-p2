@@ -1,8 +1,17 @@
 import { SideBar } from '../components/SideBar'; 
-export const Expenses = () => {
+import '../styles/Expenses.css'; 
+
+export const Activities = () => {
   return (
-    <SideBar>
-      
-    </SideBar>
-  )
-}
+    <div>
+      <SideBar />
+
+      <h1>Expenses</h1>
+
+      {/* Add button */}
+      <div className="button">
+        <button className="button">Add Expense</button>
+      </div>
+    </div>
+  );
+};
