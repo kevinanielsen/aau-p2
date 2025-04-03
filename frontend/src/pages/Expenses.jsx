@@ -1,3 +1,4 @@
+
 import { ExpenseButton } from '../components/Button';
 
 export const Expenses = () => {
@@ -5,5 +6,6 @@ export const Expenses = () => {
     <div>
       <ExpenseButton />
     </div>
+
   )
 }
