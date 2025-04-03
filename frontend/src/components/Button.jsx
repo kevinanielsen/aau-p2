@@ -1,9 +1,9 @@
 import '../styles/Button.css';
 
-export const ExpenseButton = () => {
+export const Button = ({ label }) => {
     return (
         <div>
-            <button className="button">Add expense</button>
+            <button className="button">{{ label }}</button>
         </div>
     );
   };
