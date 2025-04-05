@@ -14,8 +14,10 @@ app.use(
   }),
 );
 
-app.use('/', routes);
+app.use("/", routes);
+
+startDB();
 
 app.listen(4000, () => {
-  console.log('Server is running on port 4000')
-})
+  console.log("Server is running on port 4000");
+});
